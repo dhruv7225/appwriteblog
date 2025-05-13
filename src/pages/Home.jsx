@@ -25,7 +25,7 @@ function Home() {
                     <div className="flex flex-wrap">
                         <div className="p-2 w-full">
                             <h1 className="text-2xl font-bold hover:text-gray-500">
-                                Login to read Posts
+                                Login to read Posts....
                             </h1>
                         </div>
                     </div>
@@ -40,7 +40,7 @@ function Home() {
                     <div className="flex flex-wrap">
                         <div className="p-2 w-full">
                             <h1 className="text-2xl font-bold hover:text-gray-500">
-                                No Posts Available
+                                No Posts Available....
                             </h1>
                         </div>
                     </div>
@@ -50,6 +50,7 @@ function Home() {
     }
     return (
         <div className='w-full py-8'>
+            <h1>Posts</h1>
             <Container>
                 <div className='flex flex-wrap'>
                     {posts.map((post) => (

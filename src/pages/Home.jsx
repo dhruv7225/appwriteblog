@@ -50,7 +50,7 @@ function Home() {
     }
     return (
         <div className='w-full py-8'>
-            <h1>Posts</h1>
+            
             <Container>
                 <div className='flex flex-wrap'>
                     {posts.map((post) => (

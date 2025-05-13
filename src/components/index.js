@@ -21,7 +21,7 @@ import Header from "./Header/Header";
 import Footer from "./Footer/Footer";
 import Container from "../container/Container.jsx";
 import Logo from "./Logo";
-import LogoutBtn from "../components/Header/LogoutBtn";
+import LogoutBtn from "./Header/LogoutBtn.jsx";
 import RTE from "./RTE.jsx";
 import Signup from "./Signup";
 import Login from "./Login";

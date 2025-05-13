@@ -13,7 +13,7 @@ export default function RTE({name, control, label, defaultValue =""}) {
     control={control}
     render={({field: {onChange}}) => (
         <Editor
-        apiKey='https://cdn.tiny.cloud/1/de4bjgo3elm8ib6kllcria1y7ob3bcxxlev4qnz5qimsqygl/tinymce/7/tinymce.min.js'
+        apiKey='de4bjgo3elm8ib6kllcria1y7ob3bcxxlev4qnz5qimsqygl'
         initialValue={defaultValue}
         init={{
 
